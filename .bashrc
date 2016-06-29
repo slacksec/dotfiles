@@ -46,7 +46,7 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
-eval "$(rbenv init -)"
+#eval "$(rbenv init -)"
 
 export EDITOR=vim
 
